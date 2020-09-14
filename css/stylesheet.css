@@ -3,13 +3,17 @@
     color: #ecfdf9;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 a{
     color: black;
     text-decoration: underline;
-    font-family: 'Courier New', Courier, monospace
+
 }
 a:hover{
     color: brown;
@@ -26,6 +30,8 @@ a:hover{
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    align-self: center;
+    box-shadow: #0a8269;
 
 }
 
